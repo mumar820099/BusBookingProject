@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash"
+    android:background="@color/mainBG">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:id="@+id/splash"
+        android:src="@drawable/main"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/splashTV"
+        android:text="@string/bus_booking_app"
+        android:layout_below="@+id/splash"
+        android:textColor="@color/text"
+        android:background="@color/textBG"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:textStyle="bold|italic"
+        />
+
+</RelativeLayout>
